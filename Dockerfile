@@ -20,4 +20,4 @@ RUN chmod +x index.js
 EXPOSE 4444
 
 # Command to run the app
-CMD ["node", "index.js"]
+CMD ["node", "api/server.js"]
